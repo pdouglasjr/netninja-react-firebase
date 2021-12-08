@@ -1,0 +1,29 @@
+.App {  /* div.App */
+  max-width: 860px; /* set the max width of div.App to 860px */
+  margin: 40px auto;  /* set div.App margins to 40px */
+}
+
+button {  /* Global */
+  background: none; /* remove the button background color */
+  border: 2px solid #fff; /* change the button border color to white */
+  padding: 6px 12px; /* set button top-bottom padding to 6px and left-right padding to 12px */
+  border-radius: 4px; /* round the button corners by 4px */
+  color: #fff; /* make button text color white */
+  font-weight: bold; /* apply bold font weight button text */
+  cursor: pointer; /* set mouse pointer style to 'hand's pointer when hovering over button */
+  font-size: 1em; /* set size of button text to 1em or 24px (font size in body is set to 1.5em
+                     or 24px making the default em-to-px ratio for other elements within it 
+                     1em:24px) */
+}
+
+button:hover {
+  background: #c23866;  /* change the background color when the button is hovered over */
+  color: #fff;
+}
+
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
