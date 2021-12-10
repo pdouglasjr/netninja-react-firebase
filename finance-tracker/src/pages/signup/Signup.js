@@ -17,7 +17,8 @@ export default function Signup() {
   }
 
   return (
-    <form className="signup-form" action="" >
+    <form className={styles["signup-form"]} onSubmit={handleSubmit}>
+      <h2>Sign Up</h2>
       <label>
         <span>dispaly name:</span>
         <input
@@ -40,6 +41,7 @@ export default function Signup() {
           onChange={(e) => setPassword(e.target.value)}
         />
       </label>
+      <button className="btn">Submit</button>
     </form>
   )
 }
