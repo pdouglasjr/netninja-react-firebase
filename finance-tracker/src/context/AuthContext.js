@@ -2,6 +2,7 @@ import { createContext, useReducer } from "react";
 
 export const AuthContext = createContext();
 
+// perform state update depending on the type of action being performed.
 export const authReducer = (state, action) => {
   switch (action.type) {
     case 'LOGIN':
